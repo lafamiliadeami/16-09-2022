@@ -1,0 +1,27 @@
+*{
+    background-color: #fff;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    margin: 10px;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button{
+    margin: 10px;
+}
+
+button :hover{
+    background-color: #434D57;
+    color: white;
+}
